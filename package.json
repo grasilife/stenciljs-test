@@ -1,15 +1,33 @@
 {
   "name": "stenciljs-test",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Stencil Component Starter",
-  "homepage": "https://github.com/ranjeetsinghbnl/product-mgmt-stenciljs",
+  "homepage": "https://github.com/grasilife/stenciljs-test",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ranjeetsinghbnl/product-mgmt-stenciljs.git"
+    "url": "git+https://github.com/grasilife/stenciljs-test.git"
   },
   "bugs": {
-    "url": "https://github.com/ranjeetsinghbnl/product-mgmt-stenciljs/issues"
+    "url": "https://github.com/grasilife/stenciljs-test/issues"
   },
+  "author": {
+    "name": "grasilife",
+    "email": "434543162@qq.com",
+    "homepage": "https://github.com/grasilife"
+  },
+  "keywords": [
+    "webcomponents",
+    "web-components",
+    "typescript",
+    "scss",
+    "stencil-demo",
+    "stenciljs",
+    "stencil",
+    "tslint-stencil",
+    "state-management",
+    "dom-events",
+    "microfrontend"
+  ],
   "main": "dist/index.js",
   "module": "dist/custom-elements/index.js",
   "es2015": "dist/esm/index.mjs",
@@ -32,5 +50,10 @@
   "dependencies": {
     "@stencil/core": "^1.17.3"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^26.0.15",
+    "tslint": "^6.1.3",
+    "tslint-stencil": "^1.0.1"
+  }
 }
